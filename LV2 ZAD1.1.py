@@ -1,0 +1,16 @@
+import numpy as np
+import matplotlib.pyplot as plt
+x1 = np.linspace(1, 3, num = 2)
+y1 = np.linspace(1, 1, num = 2)
+x2 = np.linspace(3, 2, num = 2)
+y2 = np.linspace(2, 2, num = 2)
+x3 = np.linspace(1, 2, num = 2)
+y3 = np.linspace(1, 2, num = 2)
+x4 = np.linspace(3, 3, num = 2)
+y4 = np.linspace(1, 2, num = 2)
+plt.plot(x1, y1, x2 ,y2,x3,y3,x4,y4, 'b', linewidth=1, marker=".", markersize = 5)
+plt.axis([0,6,0,4])
+plt.xlabel('x os')
+plt.ylabel('y os')
+plt.title('primjer ')
+plt.show()
